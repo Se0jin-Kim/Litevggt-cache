@@ -1,0 +1,14 @@
+모델 로드 중...
+완료
+10장 로드 중...
+
+[original] 포인트 클라우드 생성 중...
+  [original] 추론 완료: 4.45s
+  저장 완료: ply_results_official/scene0025_01_original.ply  (19,841점)
+
+[adaptive] 포인트 클라우드 생성 중...
+  [adaptive] 추론 완료: 2.56s
+  저장 완료: ply_results_official/scene0025_01_adaptive.ply  (20,331점)
+
+결과 저장 위치: ply_results_official
+PLY 파일은 MeshLab, CloudCompare, Open3D 등으로 열 수 있습니다.

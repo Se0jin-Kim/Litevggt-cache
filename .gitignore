@@ -1,0 +1,18 @@
+# 모델 파일
+*.pt
+ckpt/
+
+# 결과 파일
+recon_*/
+ply_results*/
+수정_result/
+experiment_results/
+recon_result/
+
+# 데이터셋 및 큰 레포
+LiteVGGT-repo/
+
+# 기타
+__pycache__/
+*.pyc
+.DS_Store

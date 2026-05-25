@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.1.1, pluggy-1.6.0 -- /usr/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/workspace/Litevggt-cache/.hypothesis/examples'))
+rootdir: /workspace/Litevggt-cache
+plugins: dash-4.1.0, typeguard-4.4.4, anyio-4.12.1, xdoctest-1.0.2, hypothesis-6.130.8, shard-0.1.2, flakefinder-1.1.0, rerunfailures-16.1, xdist-3.8.0
+collecting ... collected 2 items
+Running 2 items in this shard: tests/test_adaptive_cache_gpu.py::test_output_shape_consistency, tests/test_adaptive_cache_gpu.py::test_recompute_log
+
+tests/test_adaptive_cache_gpu.py::test_output_shape_consistency PASSED
+tests/test_adaptive_cache_gpu.py::test_recompute_log 
+layer | reason      | drift
+------|-------------|-------
+  0   | cold_start  |   —  
+  1   | cold_start  |   —  
+  2   | cold_start  |   —  
+  3   | cold_start  |   —  
+  4   | cold_start  |   —  
+  5   | cold_start  |   —  
+  6   | cold_start  |   —  
+  7   | cold_start  |   —  
+  8   | cold_start  |   —  
+  9   | cold_start  |   —  
+  10  | cold_start  |   —  
+  11  | cold_start  |   —  
+  12  | cold_start  |   —  
+  13  | cold_start  |   —  
+  14  | cold_start  |   —  
+  15  | cold_start  |   —  
+  16  | cold_start  |   —  
+  17  | cold_start  |   —  
+  18  | cold_start  |   —  
+  19  | cold_start  |   —  
+  20  | cold_start  |   —  
+  21  | cold_start  |   —  
+  22  | cold_start  |   —  
+  23  | cold_start  |   —  
+PASSED
+
+============================== 2 passed in 11.95s ==============================
